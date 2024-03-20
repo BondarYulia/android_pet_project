@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAnimal1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/pet1"
+        android:scaleType="fitCenter"
+        android:text="Кіт" />
+
+    <Button
+        android:id="@+id/btnAnimal2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAnimal1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/pet2"
+        android:text="Ховрах" />
+
+    <Button
+        android:id="@+id/btnAnimal3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAnimal2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:drawableLeft="@drawable/pet3"
+        android:text="Їжак" />
+</RelativeLayout>
